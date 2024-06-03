@@ -1,13 +1,13 @@
 import './App.sass'
 import { NavigationBar } from './components/NavBar/NavigationBar'
-import { Section1 } from './components/section1/section1'
+import { MainContent } from './components/MainContent/MainContent'
 
 function App() {
 
   return (
     <div className="App">
       <NavigationBar/>
-      <Section1/>
+      <MainContent/>
     </div>
   )
 }

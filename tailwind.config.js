@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "brand-orange": "#FF5555"
+      },
+      class: {
+        "active": {
+          color: '#FF5555'
+        }
+      }
+    },
   },
   plugins: [],
 }
